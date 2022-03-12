@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    
+
 <head>
     <meta charset="UTF-8">
     <title> Table </title>
@@ -8,20 +8,33 @@
 
 <body>
     <table>
-        <tr>
-            <th> Nome </th>
-            <th> Idade </th>
-        </tr>
+        <caption> People by Age </caption>
 
-        <tr>
-            <td> David </td>
-            <td> 33 </td>
-        </tr>
+        <thead>
+            <tr>
+                <th> Name </th>
+                <th> Age </th>
+            </tr>
+        </thead>  
+        
+        <tbody>
+            <tr>
+                <td> David </td>
+                <td> 33 </td>
+            </tr>
 
-        <tr>
-            <td> James </td>
-            <td> 40 </td>
-        </tr>
+            <tr>
+                <td> James </td>
+                <td> 40 </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td> Total </td>
+                <td> 2 people </td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
