@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> Complex Table </title>
+</head>
+<body>
+    <table>
+        <caption> Produced x Sold </caption>
+        
+        <colgroup>
+            <col>
+            <col span="2" style="background-color: blue;">
+            <col span="2" style="background-color: red;">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2" scope="colgroup"> New York </th>
+                <th colspan="2" scope="colgroup"> Los Angeles </th>
+            </tr>
+
+            <tr>
+                <th scope="col"> Produced </th>
+                <th scope="col"> Sold </th>
+                <th scope="col"> Produced </th>
+                <th scope="col"> Sold </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row"> Brooms </th>
+                <td> 50 </td>
+                <td> 20 </td>
+                <td> 40 </td>
+                <td> 30 </td>
+            </tr>
+
+            <tr>
+                <th scope="row"> Buckets </th>
+                <td> 60 </td>
+                <td> 35 </td>
+                <td> 40 </td>
+                <td> 30 </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
